@@ -7,25 +7,27 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-      <header>
-          <a href="#"><img src="img/original_trombones.png" alt="logo du site"></a>
+      <header id="header">
+          <a href="#" id="header-img"><img src="img/original_trombones.png" alt="logo du site"></a>
           
-          <nav>
+          <nav id="nav-bar">
               <ul>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">How It Works</a></li>
-                  <li><a href="#">Pricing</a></li>
+                  <li id="nav-link" id="features"><a href="#features">Features</a></li>
+                  <li id="nav-link" id="howitworks"><a href="#howitworks">How It Works</a></li>
+                  <li id="nav-link" id="pricing"><a href="#pricing">Pricing</a></li>
               </ul>
           </nav>
       </header>
       
       <div>
           <h2>Handcrafted, home-made masterpieces</h2>
-          <input type="text" placeholder="Enter your email address">
-          <button><a href="#">GET STARTED</a></button>
+          <div id="form">
+              <input type="text" id="email" placeholder="Enter your email address">
+              <button id="submit"><a href="https://www.freecodecamp.com/email-submit">GET STARTED</a></button>
+          </div>
       </div>
       
-      <section>
+      <section id="features">
           <i class="fa fa-3x fa-fire"></i>
           <h2>Premium Materials</h2>
           <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
@@ -39,11 +41,12 @@
           <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
       </section>
        
-      <section>
+      <section id="video"> 
+         
           <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
       </section>
        
-       <section>
+       <section id="howitworks">
            <div>
               <h2>TENOR TROMBONE</h2>
               <p>$600</p>
@@ -53,7 +56,7 @@
                   <li>Lorem ipsum dolor</li>
                   <li>Lorem ipsum</li>
               </ul>
-              <button>SELECT</button>
+              <button id="pricing"><a href="#">SELECT</a></button>
            </div>
            
            <div>
@@ -65,7 +68,7 @@
                   <li>Lorem ipsum dolor</li>
                   <li>Lorem ipsum</li>
               </ul>
-              <button>SELECT</button>
+              <button id="pricing"><a href="#">SELECT</a></button>
            </div>
            <div>
               <h2>VALVE TROMBONE</h2>
@@ -76,7 +79,7 @@
                   <li>Lorem ipsum dolor</li>
                   <li>Lorem ipsum</li>
               </ul>
-              <button>SELECT</button>
+              <button id="pricing"><a href="#">SELECT</a></button>
            </div>
        </section>
        
