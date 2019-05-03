@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 10px auto;
+    background-color: #F2F2F2;
+}
+
+#header {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#header-img {
+    width: 280px;
+    height: 50px;
+}
+
+#header {
+    display: flex;
+    justify-content:space-between;
+    color:
+}
+
+#nav-bar {
+    
+    
+}
+
+#nav-link {
+    display: inline;
+    list-style-type: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 1.4em;
+    
+    
+}
+
+#nav-link a {
+    text-decoration: none;
+    color: #000;
+    
+}
+ 
+
+
