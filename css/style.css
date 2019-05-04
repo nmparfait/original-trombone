@@ -51,39 +51,6 @@ header {
     background: transparent;
 }
 
-#form-section #email {
-    background-color: #fff;
-    width: 200px;
-    height: 20px;
-}
-
-#submit a {
-    text-decoration: none;
-    color: #000;
-}
-
-#submit {
-    background-color: #F7FE2E;
-    box-sizing: border-box;
-    font-weight: bold;
-    padding: 3px;
-    width: 150px;
-    height: 35px;
-    border: none;
-    text-align: center;
-}
-
-#submit:hover {
-    background-color: #FFBF00;
-}
-
-#form-section {
-     text-align: center;
-}
-
-#form {
+.group {
     display: flex;
-   flex-direction: column;
-   padding-top: 10px;
-  
 }
