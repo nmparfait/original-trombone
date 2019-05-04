@@ -20,10 +20,15 @@ a {
 }
 
 header {
-    margin: 10px 20px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;  
     
+}
+
+.logo {
+   
 }
 
 #header-img {
@@ -43,14 +48,35 @@ header {
 
 #submit {
     
-    padding: 0 20px;
+    padding-top: 7px;
     font-size: 1em;
     height: 40px;
     text-transform: uppercase;
     border: 3px solid #000;
     background: transparent;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .group {
     display: flex;
+}
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    height: 200px;
+}
+
+#form-section h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#form-section #form {
+    flex-direction: column;
 }
