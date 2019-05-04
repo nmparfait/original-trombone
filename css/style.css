@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-#container {
+.header-section {
     position: relative;
 }
 
@@ -35,15 +35,11 @@ header {
 
 }
 
-#nav-bar li,
-#nav-bar a{
-    text-decoration: none;
-    list-style-type: none;
-    color: #000;
-    display: inline-block;
-    padding-left: 30px;
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
 }
-
 #form-section {
     text-align: center;
 }
