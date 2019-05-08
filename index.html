@@ -2,36 +2,39 @@
 <html>
     <head>
         <meta charset=utf-8>
+        <meta name="viewport" content="width=width-device" initiale-scale=1>
         <title>Original Trombones</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-      <div class="header-section">
+      <div class="header-group">
         <header id="header">
                 <div id="logo">
                     <a href="#"><img id="header-img" src="img/original_trombones.png" alt="logo du site"></a>
                 </div>
-                <div id="navigation">
-                    <nav id="nav-bar">
-                        <ul>
-                            <li id="nav-link" id="features"><a href="#features">Features</a></li>
-                            <li id="nav-link" id="howitworks"><a href="#howitworks">How It Works</a></li>
-                            <li id="nav-link" id="pricing"><a href="#pricing">Pricing</a></li>
-                        </ul>
-                    </nav>
-                </div>
-          
+            
+                <nav id="nav-bar">
+                    <ul>
+                        <li id="nav-link" id="features"><a href="#features">Feature</a></li>
+                       <li id="nav-link" id="howitworks"><a href="#howitworks">HoWorks</a></li>
+                       <li id="nav-link" id="pricing"><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>        
         </header>
+        
         
         <div class="container">        
             <section id="form-section">
                 <h2>Handcrafted, home-made masterpieces</h2>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <input name="email" type="email" id="email" placeholder="Enter your email address" required>
-                    <p id="submit"><a href="https://www.freecodecamp.com/email-submit">GET STARTED</a></p>
+                    <input name="email" type="email" id="email-form" placeholder="Enter your email address" required>
+                    
+                    <button class="button-submit" id="button" href="https://www.freecodecamp.com/email-submit" value="get started">get started</button>
                 </form>
             </section>
+        </div>
+        <div class="container">
 
             <section id="features">
                 <div class="group">
@@ -64,59 +67,58 @@
             </section>
 
             <section id="video"> 
-
                 <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </section>
 
-             <section id="howitworks">
-                 <div>
-                    <h2>TENOR TROMBONE</h2>
-                    <p>$600</p>
+             <section id="howItWorks">
+                 <div class="name">
+                    <h2 id="title">TENOR TROMBONE</h2>
+                    <h2 id="price">$600</h2>
                     <ul>
-                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum.</li>
                         <li>Lorem ipsum</li>
                         <li>Lorem ipsum dolor</li>
                         <li>Lorem ipsum</li>
                     </ul>
-                    <button id="pricing"><a href="#">SELECT</a></button>
+                    <button id="button"><a href="#">SELECT</a></button>
                  </div>
 
-                 <div>
-                    <h2>BASS TROMBONE</h2>
-                    <p>$900</p>
+                 <div class="name">
+                    <h2 id="title">BASS TROMBONE</h2>
+                    <h2 id="price">$900</h2>
                     <ul>
                         <li>Lorem ipsum</li>
                         <li>Lorem ipsum</li>
                         <li>Lorem ipsum dolor</li>
                         <li>Lorem ipsum</li>
                     </ul>
-                    <button id="pricing"><a href="#">SELECT</a></button>
+                    <button id="button"><a href="#">SELECT</a></button>
                  </div>
-                 <div>
-                    <h2>VALVE TROMBONE</h2>
-                    <p>$1200</p>
+                 
+                 <div class="name">
+                    <h2 id="title">VALVE TROMBONE</h2>
+                    <h2 id="price">$1200</h2>
                     <ul>
                         <li>Lorem ipsum</li>
                         <li>Lorem ipsum</li>
                         <li>Lorem ipsum dolor</li>
                         <li>Lorem ipsum</li>
                     </ul>
-                    <button id="pricing"><a href="#">SELECT</a></button>
+                    <button id="button"><a href="#">SELECT</a></button>
                  </div>
              </section>
 
              <footer>
                  <nav>
                      <ul>
-                         <li><a>Privacy</a></li>
-                         <li><a>Terms</a></li>
-                         <li><a>Contact</a></li>
+                         <li><a href="#">Privacy</a></li>
+                         <li><a href="#">Terms</a></li>
+                         <li><a href="#">Contact</a></li>
                      </ul>
                  </nav>
                  <p> Copyright &copy; 2019, Original Trombones</p>
-             </footer>
-            </div>
+            </footer>
         </div>
-
+        </div>
     </body>
 </html>
